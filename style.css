@@ -11,3 +11,7 @@ header.header {
 .trybewarts-header-logo {
   width: 50px;
 }
+
+.trybewarts-login {
+  display: flex;
+}
