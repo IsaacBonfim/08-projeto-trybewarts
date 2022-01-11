@@ -1,4 +1,8 @@
-.header {
+body {
+  margin: 0;
+}
+
+header.header {
   display: flex;
   background-color: rgb(50, 167, 145);
 }
