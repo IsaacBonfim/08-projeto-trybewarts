@@ -11,10 +11,27 @@ body {
 
 .trybewarts-header-logo {
   width: 50px;
+  margin: 5px;
 }
 
 .trybewarts-login {
   display: flex;
+  align-items: center;
+}
+
+.trybewarts-login input {
+  height: 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.trybewarts-login button {
+  width: 85px;
+  padding: 3px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin: 5px;
 }
 
 #trybewarts-header-title {
