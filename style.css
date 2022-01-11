@@ -2,12 +2,28 @@ body {
   margin: 0;
 }
 
-header.header {
+.header {
   display: flex;
+  justify-content: space-between;
   color: white;
   background-color: rgb(50, 167, 145);
 }
 
 .trybewarts-header-logo {
   width: 50px;
+}
+
+#trybewarts-header-title {
+  align-self: center;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  width: 675px;
 }
