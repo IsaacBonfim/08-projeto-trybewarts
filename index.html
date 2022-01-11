@@ -24,35 +24,41 @@
 
       <form action="" class="trybewarts-login">
 
-        <input type="email" name="email" id="email" placeholder="Email">
-        <input type="password" name="password" id="password" placeholder="Senha">
-        <button type="submit" id="buttonForm1">Entrar</button>
+        <input id="email" type="email" name="email" placeholder="Email">
+        <input id="password" type="password" name="password" placeholder="Senha">
+        <button id="buttonForm1" type="submit">Entrar</button>
 
       </form>
     
     </header>
 
     <main>
-      <form action="" method="get" id="evaluation-form">
+      <form id="evaluation-form" action="" method="get">
 
         <h2>Formulário de Avaliação</h2>
 
-        <input id="input-name" type="text" name="" placeholder="Nome">
-        
-        <input id="input-lastname" type="text" name="" placeholder="Sobrenome">
-        
-        <input id="input-email" type="text" name="" placeholder="Email">
+        <section id="section1">
 
-        <label for="house">Casa:
-        
-        <select id="house" name="house">
-          <option id="gitnoria-house" value="Gitnória">Gitnória</option>
-          <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
-          <option id="corvinode-house" value="Corvinode">Corvinode</option>
-          <option id="pytherina-house" value="Pytherina">Pytherina</option>
-        </select>
+          <input id="input-name" type="text" name="" placeholder="Nome">
+          
+          <input id="input-lastname" type="text" name="" placeholder="Sobrenome">
+          
+          <input id="input-email" type="text" name="" placeholder="Email">
 
-        </label>
+          <div>
+
+            <label for="house">Casa:</label>
+            
+            <select id="house" name="house">
+              <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+              <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+              <option id="corvinode-house" value="Corvinode">Corvinode</option>
+              <option id="pytherina-house" value="Pytherina">Pytherina</option>
+            </select>
+
+          </div>
+
+        </section>
 
       </form>
 
