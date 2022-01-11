@@ -4,5 +4,10 @@ body {
 
 header.header {
   display: flex;
+  color: white;
   background-color: rgb(50, 167, 145);
+}
+
+.trybewarts-header-logo {
+  width: 50px;
 }
