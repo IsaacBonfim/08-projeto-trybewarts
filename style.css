@@ -118,11 +118,12 @@ main {
 
 #section2 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   width: 100%;
   padding-bottom: 2%;
   border-bottom: 1px solid rgb(213, 203, 193);
+  margin-top: 2%;
 }
 
 #section3 {
@@ -147,6 +148,8 @@ main {
 
 #label-family {
   display: flex;
+  font-size: 18px;
+  font-weight: 600;
   flex-direction: column;
 }
 
@@ -158,12 +161,21 @@ main {
 #checkbox-content {
   display: flex;
   flex-direction: column;
+  justify-content: space-between
 }
 
 #label-content {
   display: flex;
   flex-wrap: wrap;
+  font-size: 18px;
+  font-weight: 600;
   flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly
 }
 
 .textarea , #label-infos {
