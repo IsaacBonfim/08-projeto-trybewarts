@@ -1,5 +1,11 @@
 body {
+  width: 100%;
+  height: 100%;
   margin: 0;
+}
+
+header, main, footer {
+  flex-shrink: 0;
 }
 
 .header {
@@ -45,7 +51,6 @@ main {
 
 #trybewarts-forms-logo {
   height: 500px;
-  flex-shrink: 1;
 }
 
 #evaluation-form {
@@ -132,7 +137,8 @@ main {
 
 textarea {
   width: 100%;
-  height: 100px;
+  height: 150px;
+  resize: none;
   border-radius: 5px;
   border: 1px solid rgb(213, 203, 193);
 }
@@ -145,6 +151,7 @@ textarea {
   width: 100%;
   padding: 10px;
   border-radius: 5px;
+  margin-bottom: 10px;
 }
 
 .ativado {
@@ -172,7 +179,9 @@ textarea {
 }
 
 footer {
-  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
   width: 100%;
   bottom: 0;
   background-color: rgb(50, 167, 145);
@@ -180,7 +189,7 @@ footer {
 }
 
 #rodape {
-  text-align: center;
+  align-self: center;
   font-family: Roboto, sans-serif;
   font-weight: 800;
   font-size: 15px;
