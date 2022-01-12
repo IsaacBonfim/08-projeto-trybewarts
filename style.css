@@ -1,11 +1,5 @@
 body {
-  width: 100%;
-  height: 100%;
   margin: 0;
-}
-
-header, main, footer {
-  flex-shrink: 0;
 }
 
 .header {
@@ -64,7 +58,7 @@ main {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  width: 675px;
+  width: 100%;
   padding-bottom: 2%;
   border-bottom: 1px solid rgb(213, 203, 193);
 }
@@ -104,7 +98,7 @@ main {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  width: 675px;
+  width: 100%;
   padding-bottom: 2%;
   border-bottom: 1px solid rgb(213, 203, 193);
 }
@@ -114,7 +108,7 @@ main {
   align-items: center;
   justify-content: flex-start;
   flex-wrap: wrap;
-  width: 675px;
+  width: 100%;
   margin-top: 2%;
 }
 
