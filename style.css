@@ -1,5 +1,15 @@
-body {
+html, body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
   margin: 0;
+}
+
+header, main, footer {
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  flex-shrink: 0;
 }
 
 .header {
@@ -16,6 +26,7 @@ body {
 
 .trybewarts-login {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -40,11 +51,22 @@ body {
 
 main {
   display: flex;
+  flex-grow: 1;
   justify-content: space-evenly;
 }
 
+#imagem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
 #trybewarts-forms-logo {
-  height: 500px;
+  width: auto;
+  height: 100%;
+  max-height: 500px;
+  overflow: hidden;
 }
 
 #evaluation-form {
