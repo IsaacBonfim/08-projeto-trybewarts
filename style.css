@@ -96,7 +96,7 @@ main {
 
 #section2 {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap;
   width: 100%;
   padding-bottom: 2%;
@@ -121,6 +121,27 @@ main {
 #label-rate {
   font-size: 18px;
   font-weight: 600;
+}
+
+#label-family {
+  display: flex;
+  flex-direction: column;
+}
+
+#radio-family {
+  display: flex;
+  flex-direction: column;
+}
+
+#checkbox-content {
+  display: flex;
+  flex-direction: column;
+}
+
+#label-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .textarea , #label-infos {
