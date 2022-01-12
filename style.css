@@ -161,21 +161,20 @@ main {
 #checkbox-content {
   display: flex;
   flex-direction: column;
-  justify-content: space-between
+  justify-content: space-between;
 }
 
 #label-content {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: wrap column;
   font-size: 18px;
   font-weight: 600;
-  flex-direction: column;
 }
 
 .row {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly
+  justify-content: space-evenly;
 }
 
 .textarea , #label-infos {
