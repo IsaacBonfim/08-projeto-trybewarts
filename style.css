@@ -95,6 +95,10 @@ main {
   margin: 5px;
 }
 
+.linha div {
+  width: 90px;
+}
+
 #section1 div {
   display: flex;
   width: 45%;
@@ -175,10 +179,6 @@ main {
   display: flex;
   flex-flow: wrap row;
   justify-content: space-evenly;
-}
-
-.linha div {
-  width: 90px;
 }
 
 .textarea , #label-infos {
