@@ -68,8 +68,10 @@ function listaMaterias(array, string) {
   for (let i = 0; i < array.length; i += 1) {
     if (i === 0) {
       string += `${array[i]} `;
+    } else if (i === 1) {
+      string += `${array[i]}`;
     } else {
-      string += `${array[i]}, `;
+      string += `, ${array[i]}`;
     }
   }
 
@@ -140,17 +142,21 @@ function limpaFormulario() {
 }
 
 function montaFormulario() {
+  const retorno = document.createElement('div');
   const form = document.getElementById('evaluation-form');
   const infos = montaRetorno();
 
+  retorno.className = 'retorno';
   limpaFormulario();
 
   for (let i = 0; i < infos.length; i += 1) {
     const p = document.createElement('p');
 
     p.innerText = infos[i];
-    form.appendChild(p);
+    retorno.appendChild(p);
   }
+
+  form.appendChild(retorno);
 }
 
 enviar.addEventListener('click', desativaPadrao);

@@ -230,6 +230,12 @@ textarea {
   background-color: lightgrey;
 }
 
+.retorno {
+  padding: 5%;
+  border: 1px solid rgb(213, 203, 193);
+  border-radius: 15px;
+}
+
 footer {
   display: flex;
   justify-content: center;
