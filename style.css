@@ -78,6 +78,7 @@ main {
   display: flex;
   align-items: center;
   flex-flow: column wrap;
+  justify-content: space-evenly;
   width: 675px;
 }
 
