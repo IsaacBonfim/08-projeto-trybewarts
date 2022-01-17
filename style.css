@@ -56,6 +56,10 @@ main {
   justify-content: space-evenly;
 }
 
+#titulo {
+  margin: 15px 0;
+}
+
 #imagem {
   display: flex;
   justify-content: center;
@@ -139,10 +143,17 @@ main {
   margin-top: 2%;
 }
 
-#section3 div {
+#div-rate {
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+}
+
+#div-counter {
   display: flex;
   justify-content: flex-end;
-  width: 60%;
+  width: 100%;
+  font-size: 12px;
 }
 
 #label-rate {

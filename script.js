@@ -24,6 +24,20 @@ function habilitaBotao() {
 
 chkConcordo.addEventListener('change', habilitaBotao);
 
+const contador = document.getElementById('counter');
+const textarea = document.getElementById('textarea');
+
+function contagem() {
+  const text = textarea.value.length;
+  let valor = 500;
+
+  valor = 500 - text;
+
+  contador.innerText = valor;
+}
+
+textarea.addEventListener('keyup', contagem);
+
 function desativaPadrao(evento) {
   evento.preventDefault();
 }
