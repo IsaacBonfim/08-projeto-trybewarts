@@ -11,7 +11,7 @@
 
 ---
 
-**Nota**: /ESCREVAM SUA NOTA AQUI/
+**Nota**: Isaac Oliveira: 9
 
 ---
 
@@ -19,11 +19,11 @@
 
 ---
 
-**Observações**: /ESCREVAM SUAS OBSERVAÇÕES AQUI/
+**Observações**: Isaac Oliveira: Adorei o desenvolvimento do projeto, mas acredito que o nome das duplas poderia ser divulgado com mais antecedencia, tipo no começo do bloco, para que já pudessemos realizar alguma interação caso ainda não tenhamos conhecido a pessoa.
 
 ---
 
-**Pessoas integrantes da dupla**: /ESCREVAM SEUS NOMES AQUI/
+**Pessoas integrantes da dupla**: ISAAC PINTO BONFIM DE OLIVEIRA
 
 ---
 
