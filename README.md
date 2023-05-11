@@ -17,3 +17,18 @@ O objetivo com o desenvolvimento do projeto era testar nossas habilidades na cri
 2. Instale as dependências usando o comando `npm install`.
 3. Inicie o aplicativo usando o comando `npm start`.
 4. Acesse [https://localhost:3000](https://localhost:3000) para visualizar no browser.
+
+## Sobre o Projeto
+
+A página conta com um fomulário contendo inputs, selects, radio buttons, checkboxes e textareas, todos estes elementos repassam informações ao formulário para que final do preenchimento, ao clicar no botão "Enviar", um relatório é gerado em tela com todas as informações repassadas.
+
+Este projeto teve como objetivo verificar nossa capacidade de:
+
+- Criar formulários em HTML;
+
+- Utilizar CSS Flexbox para criar layouts flexíveis;
+
+- Criar regras CSS específicas para serem aplicadas a dispositivos móveis;
+
+- Construir páginas que alteram o seu layout de acordo com a orientação da tela;
+
